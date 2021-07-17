@@ -1,7 +1,4 @@
 import { useState, useEffect } from 'react';
-import styled from 'styled-components';
-
-
 
 function Home() {
   const API = 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/codeacademia'
